@@ -65,6 +65,19 @@
 			</plugin>
 		</plugins>
 	</build>
+<distributionManagement>
+	<repository>
+		<id>deploymentRepo</id>
+		<name>DeployerRelease</name>
+		<url>http://35.185.105.139:8081/repository/DeployerRelease/</url>
+	</repository>
+ 
+	<snapshotRepository>
+		<id>deploymentRepo</id>
+		<name>DeploySnapshot</name>
+		<url>http://35.185.105.139:8081/repository/DeploySnapshot/</url>
+	</snapshotRepository>
+</distributionManagement>
 
 
 </project>
